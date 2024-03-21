@@ -1,0 +1,1 @@
+{"version":3,"file":"ResponseUpdateBooking.js","sourceRoot":"","sources":["../../src/dtos/ResponseUpdateBooking.ts"],"names":[],"mappings":";;;AAEA,MAAa,qBAAqB;IAI9B,YAAmB,OAAgB;QAC/B,IAAI,CAAC,OAAO,GAAG,yCAAyC,CAAC;QACzD,IAAI,CAAC,OAAO,GAAG,OAAO,CAAC;IAC3B,CAAC;CACJ;AARD,sDAQC"}
