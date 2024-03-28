@@ -4,6 +4,8 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { SequelizeModule } from '@nestjs/sequelize';
 import { Booking } from './models/Booking';
+import { AppDesignPatternController } from './app.designpatterncontroller';
+import { AppDesignPatternService } from './app.designpatternservice';
 
 @Module({
   imports: [
@@ -18,8 +20,8 @@ import { Booking } from './models/Booking';
     }),
     SequelizeModule.forFeature([Booking]),
   ],
-  controllers: [AppController],
-  providers: [AppService],
+  controllers: [AppController, AppDesignPatternController],
+  providers: [AppService, AppDesignPatternService],
 })
 export class AppModule {}
 
